@@ -1,4 +1,4 @@
-library(lubridate)
+
 power <- read.csv("household_power_consumption.txt", sep = ";", na.strings = "?", stringsAsFactors = F)
 
 #Convert Date to "Date" class
@@ -14,10 +14,6 @@ power2$Date.time <- paste(power2$Date, power2$Time)
 power2$Date.time <- strptime(power2$Date.time, "%Y-%m-%d %H:%M:%S")
 
 #create histogram
-
-hist (power2$Global_active_power, col="red", 
-     xlab = "Global Active Power (kilowatts)",
-      main= "Global Active Power")
 
 #save histogram to working folder as .png
 png('plot1.png')
