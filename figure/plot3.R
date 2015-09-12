@@ -1,4 +1,4 @@
-library(lubridate)
+
 power <- read.csv("household_power_consumption.txt", sep = ";", na.strings = "?", stringsAsFactors = F)
 
 #Convert Date to "Date" class
