@@ -1,5 +1,12 @@
 ## Introduction
 
+The script files plot1.R, plot2.R, plot3.R and plot4.R create the corresponding graphs in this folder.
+
+To create the graphs, download the dataset below and run the scripts to create the graphs.
+
+Please disregard the files in the figures folder.
+
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
